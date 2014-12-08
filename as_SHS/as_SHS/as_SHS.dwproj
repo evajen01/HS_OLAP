@@ -6,10 +6,37 @@
     <Name>as_SHS.database</Name>
     <FullPath>as_SHS.database</FullPath>
   </Database>
+  <DataSources>
+    <ProjectItem>
+      <Name>CFR.ds</Name>
+      <FullPath>CFR.ds</FullPath>
+    </ProjectItem>
+  </DataSources>
+  <DataSourceViews>
+    <ProjectItem>
+      <Name>dsv_SHS.dsv</Name>
+      <FullPath>dsv_SHS.dsv</FullPath>
+    </ProjectItem>
+  </DataSourceViews>
   <Configurations>
     <Configuration>
       <Name>Development</Name>
-      <Options />
+      <Options>
+        <ConnectionMappings>
+          <ConfigurationSetting>
+            <Id>CFR</Id>
+            <Name>CFR</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI10.1;Data Source=grdcfrwhq01;Integrated Security=SSPI;Initial Catalog=CFR</Value>
+          </ConfigurationSetting>
+        </ConnectionMappings>
+        <ConnectionSecurityMappings>
+          <ConfigurationSetting>
+            <Id>CFR</Id>
+            <Name>CFR</Name>
+            <Value xsi:type="xsd:int">0</Value>
+          </ConfigurationSetting>
+        </ConnectionSecurityMappings>
+      </Options>
     </Configuration>
   </Configurations>
 </Project>

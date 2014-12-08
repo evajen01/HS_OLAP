@@ -1,0 +1,141 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="d7df36d6-90db-4579-bf6c-25b818a4fcc7" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>dsv_SHS</ID>
+  <Name>dsv_SHS</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>CFR</DataSourceID>
+  <Schema>
+    <xs:schema id="dsv_SHS" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="dsv_SHS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="719316a9-4522-4b3a-b081-1a0fc70b813c">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_D_DATE" msprop:FriendlyName="D_DATE" msprop:DbSchemaName="dbo" msprop:DbTableName="D_DATE" msprop:design-time-name="62b72464-0e25-4aa9-a625-19b220a78b4b" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="CDN" msprop:FriendlyName="CDN" msprop:DbColumnName="CDN" msprop:design-time-name="3d27b8d0-d4f6-46cb-8e1e-a5f7be950dae" type="xs:int" />
+                  <xs:element name="DATE_ID" msprop:FriendlyName="DATE_ID" msprop:DbColumnName="DATE_ID" msprop:design-time-name="620c6892-b2e0-4858-9eb9-64119e3e639e" type="xs:dateTime" />
+                  <xs:element name="DAY_IN_WEEK" msprop:FriendlyName="DAY_IN_WEEK" msprop:DbColumnName="DAY_IN_WEEK" msprop:design-time-name="b2814993-eab7-402d-ba15-436e94ab8480" type="xs:short" minOccurs="0" />
+                  <xs:element name="DAY_IN_WEEK_NAME" msprop:FriendlyName="DAY_IN_WEEK_NAME" msprop:DbColumnName="DAY_IN_WEEK_NAME" msprop:design-time-name="f92c5008-04f6-48cf-8555-13e622a2d3f1" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="DAY_IN_MONTH" msprop:FriendlyName="DAY_IN_MONTH" msprop:DbColumnName="DAY_IN_MONTH" msprop:design-time-name="2eff5521-bd79-41a9-bb2a-b58a8190fdcb" type="xs:short" minOccurs="0" />
+                  <xs:element name="CWN" msprop:FriendlyName="CWN" msprop:DbColumnName="CWN" msprop:design-time-name="cc36c537-304f-41f2-a25d-7f7351081a90" type="xs:int" minOccurs="0" />
+                  <xs:element name="CMN" msprop:FriendlyName="CMN" msprop:DbColumnName="CMN" msprop:design-time-name="e4368761-c32b-4a16-9147-702f83cea071" type="xs:short" minOccurs="0" />
+                  <xs:element name="MONTH_ID" msprop:FriendlyName="MONTH_ID" msprop:DbColumnName="MONTH_ID" msprop:design-time-name="6de352b5-aeee-4fdb-9686-a071f1db4194" type="xs:short" minOccurs="0" />
+                  <xs:element name="MONTH_CD" msprop:FriendlyName="MONTH_CD" msprop:DbColumnName="MONTH_CD" msprop:design-time-name="2e2e89f1-662a-4b6f-a8ff-e6628ac7e30d" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="MONTH_NAME" msprop:FriendlyName="MONTH_NAME" msprop:DbColumnName="MONTH_NAME" msprop:design-time-name="0259f6e5-32fc-4653-a2a5-c3a14f09ec48" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="MONTH_ABRV_NM" msprop:FriendlyName="MONTH_ABRV_NM" msprop:DbColumnName="MONTH_ABRV_NM" msprop:design-time-name="e69ce42e-69d3-491b-9cb4-fd90c63e1b5c" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="3" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="MONTH_START_DT" msprop:FriendlyName="MONTH_START_DT" msprop:DbColumnName="MONTH_START_DT" msprop:design-time-name="29e9e9b7-8794-4605-85d5-f093172f9b31" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="MONTH_END_DT" msprop:FriendlyName="MONTH_END_DT" msprop:DbColumnName="MONTH_END_DT" msprop:design-time-name="e5a5ff69-a509-4334-8d02-8ad2cd84ca8c" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="CQN" msprop:FriendlyName="CQN" msprop:DbColumnName="CQN" msprop:design-time-name="36313a80-9382-4f06-a5c1-ecb2bd96c710" type="xs:short" minOccurs="0" />
+                  <xs:element name="QTR_ID" msprop:FriendlyName="QTR_ID" msprop:DbColumnName="QTR_ID" msprop:design-time-name="5fa6a973-e9c1-465b-a7f3-447db8533061" type="xs:short" minOccurs="0" />
+                  <xs:element name="QTR_CD" msprop:FriendlyName="QTR_CD" msprop:DbColumnName="QTR_CD" msprop:design-time-name="e96696db-6655-4e1f-b406-64dfa6bde1c6" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="8" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="QTR_START_DT" msprop:FriendlyName="QTR_START_DT" msprop:DbColumnName="QTR_START_DT" msprop:design-time-name="e598729d-cc2a-4466-a53c-0a99c6f5863c" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="QTR_END_DT" msprop:FriendlyName="QTR_END_DT" msprop:DbColumnName="QTR_END_DT" msprop:design-time-name="83fabe7b-c696-4573-8a97-66e7b640388f" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="QTR_WK_CD" msprop:FriendlyName="QTR_WK_CD" msprop:DbColumnName="QTR_WK_CD" msprop:design-time-name="fe81bab6-4e8c-49b4-a097-8d7333b264da" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="11" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="CYN" msprop:FriendlyName="CYN" msprop:DbColumnName="CYN" msprop:design-time-name="0fb9bb43-8974-4c94-9d73-843d1ad121ee" type="xs:short" minOccurs="0" />
+                  <xs:element name="YEAR_ID" msprop:FriendlyName="YEAR_ID" msprop:DbColumnName="YEAR_ID" msprop:design-time-name="21f62f63-c7b9-4121-a622-0205d5858c3d" type="xs:short" minOccurs="0" />
+                  <xs:element name="YEAR_ABRV_NM" msprop:FriendlyName="YEAR_ABRV_NM" msprop:DbColumnName="YEAR_ABRV_NM" msprop:design-time-name="8b3a9ffe-6b26-4d6d-89a0-000972b6c709" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="2" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="YEAR_START_DT" msprop:FriendlyName="YEAR_START_DT" msprop:DbColumnName="YEAR_START_DT" msprop:design-time-name="581a8eb4-6724-4c09-a2d8-7e581ada035f" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="YEAR_END_DT" msprop:FriendlyName="YEAR_END_DT" msprop:DbColumnName="YEAR_END_DT" msprop:design-time-name="a64a6365-3afa-48b3-84bd-9a6aa6cb71ae" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="GL_PERIOD" msprop:FriendlyName="GL_PERIOD" msprop:DbColumnName="GL_PERIOD" msprop:design-time-name="7c1ff9ce-261f-42cb-a468-50b93bbe4f3b" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="6" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="WEEK_ENDING_DT" msprop:FriendlyName="WEEK_ENDING_DT" msprop:DbColumnName="WEEK_ENDING_DT" msprop:design-time-name="184cf7c8-348e-41ad-a46d-23e341d0225b" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="WEEK_ENDING_CDN" msprop:FriendlyName="WEEK_ENDING_CDN" msprop:DbColumnName="WEEK_ENDING_CDN" msprop:design-time-name="83f1c38f-765e-4ade-88c2-79d363a52071" type="xs:int" minOccurs="0" />
+                  <xs:element name="REFRESH" msprop:FriendlyName="REFRESH" msprop:DbColumnName="REFRESH" msprop:design-time-name="54fd0925-3a91-4c84-b0f0-6a97b26e7de0" type="xs:unsignedByte" minOccurs="0" />
+                  <xs:element name="UPDT_DT_TM" msprop:FriendlyName="UPDT_DT_TM" msprop:DbColumnName="UPDT_DT_TM" msprop:design-time-name="2f33f999-403a-419e-b8f5-5cb9949ec186" type="xs:dateTime" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_D_DATE" />
+          <xs:field xpath="CDN" />
+        </xs:unique>
+      </xs:element>
+    </xs:schema>
+    <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+  </Schema>
+</DataSourceView>
