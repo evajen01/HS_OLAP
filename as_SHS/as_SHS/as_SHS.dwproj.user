@@ -3,7 +3,7 @@
     <Configuration>
       <Name>Development</Name>
       <Options>
-        <TargetServer>localhost</TargetServer>
+        <TargetServer>grdcfrrpt01</TargetServer>
         <TargetDatabase>as_SHS</TargetDatabase>
         <StartObject>
           <ObjectId></ObjectId>

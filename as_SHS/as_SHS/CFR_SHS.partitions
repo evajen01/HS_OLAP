@@ -1,0 +1,25 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="3b7cf048-9aca-4890-9fd5-8890cd11b467" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>CFR_SHS</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>F MARGIN DETAIL SHS</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="7ad24db5-2ec7-4ea2-a13d-10aa99ce9c66">
+          <ID>F MARGIN DETAIL SHS</ID>
+          <Name>F MARGIN DETAIL SHS</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="86be0f1f-5e98-4d86-8a73-7a2d4cf68085">
+            <DataSourceViewID>dsv_SHS</DataSourceViewID>
+            <TableID>dbo_F_MARGIN_DETAIL_SHS</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

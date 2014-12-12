@@ -1,0 +1,336 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="8b23e36b-bff6-42b8-aaa9-9966b31abb88" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>D DATE DSV</ID>
+  <Name>Date</Name>
+  <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-827" scrolltop="-3440" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7197" y="11880" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="D_DATE_DSV" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="5503" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000800007f15000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_D_DATE_DSV" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-827</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-3440</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="117">
+            <Shape Id="CDN" Expanded="false">
+              <Attributes>
+                <Attribute Id="CDN" />
+                <Attribute Id="MONTH ID" />
+                <Attribute Id="QTR FLAG" />
+                <Attribute Id="QTR WK CD" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="DATE ID" Expanded="false">
+              <Attributes>
+                <Attribute Id="DATE ID" />
+              </Attributes>
+              <Position x="171" y="20" />
+            </Shape>
+            <Shape Id="MONTH NAME" Expanded="false">
+              <Attributes>
+                <Attribute Id="MONTH NAME" />
+              </Attributes>
+              <Position x="322" y="20" />
+            </Shape>
+            <Shape Id="QTR ID" Expanded="false">
+              <Attributes>
+                <Attribute Id="QTR ID" />
+              </Attributes>
+              <Position x="473" y="20" />
+            </Shape>
+            <Shape Id="YEAR ID" Expanded="false">
+              <Attributes>
+                <Attribute Id="YEAR ID" />
+              </Attributes>
+              <Position x="625" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="28a50656-f115-4596-bfa8-db77b00bcafe">
+    <DataSourceViewID>dsv_SHS</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="b77920b2-19f8-413e-a70b-5962137cace1">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="8cd12345-2f29-4033-a04c-db2b537be3fb">
+      <ID>CDN</ID>
+      <Name>CDN</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="bf1ab92c-f5d8-4fde-a72c-02581d5e114a">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6a966389-8bef-4a28-9333-b81ee54a494c">
+            <TableID>dbo_D_DATE_DSV</TableID>
+            <ColumnID>CDN</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="22a54053-e3c2-4ad8-8ea9-f42ea759ee23">
+          <AttributeID>DATE ID</AttributeID>
+          <Name>Date</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="6672e05d-3b14-4f6e-891b-55fd9d6e3bae">
+          <AttributeID>MONTH ID</AttributeID>
+          <Name>Month ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="fd005235-6f56-4e23-a487-a48de8ebd709">
+          <AttributeID>QTR FLAG</AttributeID>
+          <Name>Qtr Flag</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="fbe380ef-4983-4768-adf1-a1a85bd47443">
+          <AttributeID>QTR WK CD</AttributeID>
+          <Name>Qtr Week Cd</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+    </Attribute>
+    <Attribute dwd:design-time-name="e561633c-9f3d-481a-81c2-7481dd5821ff">
+      <ID>DATE ID</ID>
+      <Name>Date</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3f4a6213-5d89-451c-8495-ef66ec46bcb5">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="36e69318-60d9-4a8f-87a9-eb54b734a424">
+            <TableID>dbo_D_DATE_DSV</TableID>
+            <ColumnID>DATE_ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="47d8f8ca-ce37-4cb3-82df-da4762b87726">
+          <AttributeID>MONTH NAME</AttributeID>
+          <Name>Month</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+    </Attribute>
+    <Attribute dwd:design-time-name="401e282c-0c07-4665-87f7-bb0691a7c9c6">
+      <ID>MONTH ID</ID>
+      <Name>Month ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e661533d-1005-4c73-b6f0-bd8711b9fc3a">
+          <DataType>SmallInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0a4eb522-d2dc-4c16-9795-8d80d19b52ea">
+            <TableID>dbo_D_DATE_DSV</TableID>
+            <ColumnID>MONTH_ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Attribute>
+    <Attribute dwd:design-time-name="853c52f1-e283-465d-8efa-99da266dcd72">
+      <ID>QTR ID</ID>
+      <Name>Qtr ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="bdc146d7-c53c-45e3-9003-e5484b8dc208">
+          <DataType>SmallInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ac4773e1-50b2-4ed7-8636-b5b54c5a3917">
+            <TableID>dbo_D_DATE_DSV</TableID>
+            <ColumnID>YEAR_ID</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="38867ee3-c157-45e8-8370-62617a383fdb">
+          <DataType>SmallInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7f77e1f0-1f2f-47df-a1de-6b3bf8e86a8f">
+            <TableID>dbo_D_DATE_DSV</TableID>
+            <ColumnID>QTR_ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="ce81ae71-59db-4c69-9549-8f91b8b7d07c">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="0f2acb9e-896b-4281-b3a6-f247f0b1ff24">
+          <TableID>dbo_D_DATE_DSV</TableID>
+          <ColumnID>QTR_ID</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="6b52b5b7-2067-46a6-9e6d-2f875dff7a64">
+          <AttributeID>YEAR ID</AttributeID>
+          <Name>Year</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+    </Attribute>
+    <Attribute dwd:design-time-name="72f242c9-c201-437a-8bf2-16da61ab1880">
+      <ID>YEAR ID</ID>
+      <Name>Year</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="66caf2f2-f7b4-40f3-9349-9189315969b3">
+          <DataType>SmallInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e80a8699-7422-4fbb-b6a4-b93f9059de74">
+            <TableID>dbo_D_DATE_DSV</TableID>
+            <ColumnID>YEAR_ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Attribute>
+    <Attribute dwd:design-time-name="390d93cd-2d41-4b97-93a2-b34ada10acc7">
+      <ID>MONTH NAME</ID>
+      <Name>Month</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="de382e1d-b25d-4765-b2cf-acfe94b0e092">
+          <DataType>SmallInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="db904ee1-af1e-468a-ab19-5f14afab1aa3">
+            <TableID>dbo_D_DATE_DSV</TableID>
+            <ColumnID>YEAR_ID</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="2dcb0374-7ff3-46cf-b8a2-87abff82132f">
+          <DataType>SmallInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5da2a657-3bd0-46f4-a3a8-53aac6ff4b53">
+            <TableID>dbo_D_DATE_DSV</TableID>
+            <ColumnID>QTR_ID</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="925f1e51-0412-4339-a176-1615669d088c">
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="41056ec1-2b09-4543-9fe5-c75de1b08d76">
+            <TableID>dbo_D_DATE_DSV</TableID>
+            <ColumnID>MONTH_NAME</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="498cb39d-55b0-44ad-b319-62da484d1065">
+        <DataType>WChar</DataType>
+        <DataSize>10</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="74dc633e-0e8c-4573-8469-9257eb96c9d7">
+          <TableID>dbo_D_DATE_DSV</TableID>
+          <ColumnID>MONTH_NAME</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="23265607-dfbf-4bb5-bff7-a9d09c15dced">
+          <AttributeID>QTR ID</AttributeID>
+          <Name>Qtr ID</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+    </Attribute>
+    <Attribute dwd:design-time-name="a8888a77-ea48-4393-b132-49e66b607799">
+      <ID>QTR FLAG</ID>
+      <Name>Qtr Flag</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8ade347f-3542-4243-9f71-1e867d74112a">
+          <DataType>WChar</DataType>
+          <DataSize>21</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4c24efd8-f5fd-4e1f-a92d-8f6570525941">
+            <TableID>dbo_D_DATE_DSV</TableID>
+            <ColumnID>QTR_FLAG</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Attribute>
+    <Attribute dwd:design-time-name="2c7ff69c-e4f5-4b2c-a3b5-469955ac0a07">
+      <ID>QTR WK CD</ID>
+      <Name>Qtr Week Cd</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f4fdc400-cf69-481d-8d65-8f5f5dd49e03">
+          <DataType>WChar</DataType>
+          <DataSize>11</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ae107ce5-6327-49b2-b9bf-bddc2a6337eb">
+            <TableID>dbo_D_DATE_DSV</TableID>
+            <ColumnID>QTR_WK_CD</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="e6226fe8-4074-42f1-a1be-a352974664ae">
+      <ID>Hierarchy</ID>
+      <Name>Date Hierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="e9c3e983-96ad-43b4-b00c-0fa1508e3a75">
+          <ID>Year</ID>
+          <Name>Year</Name>
+          <SourceAttributeID>YEAR ID</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="393d3006-77bc-4144-95f3-b7db461269cc">
+          <ID>Qtr ID</ID>
+          <Name>Qtr ID</Name>
+          <SourceAttributeID>QTR ID</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="db1b79fb-27b9-41d3-81cb-3cfc498fdd46">
+          <ID>Month</ID>
+          <Name>Month</Name>
+          <SourceAttributeID>MONTH NAME</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="cf41bbff-c059-40af-87a1-874de47c746a">
+          <ID>Date</ID>
+          <Name>Date</Name>
+          <SourceAttributeID>DATE ID</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+</Dimension>

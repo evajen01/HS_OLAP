@@ -1,0 +1,82 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>as_SHS</Database>
+    <Server>grdcfrrpt01</Server>
+    <ConnectionString>DataSource=grdcfrrpt01;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>ydMLppDnO3ZOO0ImH+Kx4Q==12/8/2014 2:30:36 PM12/8/2014 2:30:36 PM</TimeStamp>
+        <ID>
+          <String>CFR</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>fQd0SqgBFyXQyFRMiL7xpA==12/12/2014 11:36:38 AM12/12/2014 11:34:34 AM</TimeStamp>
+        <ID>
+          <String>SHS_RPT</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>svvTAUJKWRfufzAt3xrlNw==12/12/2014 1:43:56 PM12/8/2014 2:39:23 PM</TimeStamp>
+        <ID>
+          <String>dsv_SHS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>YWqOyJtjA1l4Rq/fvuxGyw==12/12/2014 1:33:13 PM12/12/2014 12:32:45 PM</TimeStamp>
+        <ID>
+          <String>D PRODUCT SS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ucOyhBcQePHP2hIy0SCAZg==12/12/2014 1:43:56 PM12/12/2014 12:32:45 PM</TimeStamp>
+        <ID>
+          <String>D CONTRACT SS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ePgfu+YZZlOtsRNVGPchSw==12/12/2014 1:10:38 PM12/12/2014 12:32:45 PM</TimeStamp>
+        <ID>
+          <String>D DATE DSV</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>Xb4CIorOrDR4/ZT3MZ1U9w==12/12/2014 1:43:56 PM12/12/2014 12:32:45 PMAuYuMBlTECbJlErktte3mw==12/12/2014 12:32:45 PM12/12/2014 12:32:45 PM</TimeStamp>
+        <ID>
+          <String>CFR_SHS</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>F4h1Oo9evuISYParVLq8eg==12/8/2014 2:20:34 PM12/8/2014 2:20:33 PM</TimeStamp>
+      <ID>
+        <String>as_SHS</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2014-12-12T19:44:06Z</LastDeployed>
+</DeploymentSnapshot>

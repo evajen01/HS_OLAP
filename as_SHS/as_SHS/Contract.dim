@@ -1,0 +1,211 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="c3ca4a26-91ae-4948-9359-6bcbed842975" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>D CONTRACT SS</ID>
+  <Name>Contract</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1263" scrolltop="-3440" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7197" y="11880" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="D_CONTRACT_SS" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4630" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000800001612000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_D_CONTRACT_SS" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1263</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-3440</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="160">
+            <Shape Id="CONTRACT NUM" Expanded="true">
+              <Attributes>
+                <Attribute Id="CONTRACT NUM" />
+                <Attribute Id="CONTRACT LINE NUM" />
+                <Attribute Id="CUST ID" />
+                <Attribute Id="LEGAL ENTITY" />
+                <Attribute Id="SOURCE ID" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="701c86c8-4800-4679-91d8-f7a638bcb6b3">
+    <DataSourceViewID>dsv_SHS</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="ce62a408-1bb0-4790-8570-9278238c4530">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="5ab91283-8ec0-4382-b4cf-d9bb627dc6e6">
+      <ID>CONTRACT NUM</ID>
+      <Name>CONTRACT NUM</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6553f7f1-ed1d-47ec-b829-33e51c8d7ab7">
+          <DataType>WChar</DataType>
+          <DataSize>25</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="36ef7348-14f7-4868-897e-5376306547ea">
+            <TableID>dbo_D_CONTRACT_SS</TableID>
+            <ColumnID>CONTRACT_NUM</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="2f9b27a8-3d1f-4aaf-8379-0d880e2c6059">
+          <DataType>SmallInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d2a14bea-62a3-447e-b840-8987d0ac6f26">
+            <TableID>dbo_D_CONTRACT_SS</TableID>
+            <ColumnID>CONTRACT_LINE_NUM</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="9baf89c2-a66d-4d43-bc95-0b2fd500c35f">
+          <DataType>SmallInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="08bf08ef-8aed-44cf-8123-30d566ab8d3e">
+            <TableID>dbo_D_CONTRACT_SS</TableID>
+            <ColumnID>SOURCE_ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="7cd3f66e-0b7f-41d4-93ed-86c55ad13841">
+        <DataType>WChar</DataType>
+        <DataSize>25</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="78d8b43b-18f4-4230-9986-a001ab528cb6">
+          <TableID>dbo_D_CONTRACT_SS</TableID>
+          <ColumnID>CONTRACT_NUM</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="4fc2af27-2506-4001-a0b4-a006238e538a">
+          <AttributeID>CONTRACT LINE NUM</AttributeID>
+          <Name>CONTRACT LINE NUM</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="4b499146-1d6f-4062-954a-c51085af7780">
+          <AttributeID>SOURCE ID</AttributeID>
+          <Name>SOURCE ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ee0c9c77-b007-4c70-98c7-94957cf5cc4d">
+          <AttributeID>LEGAL ENTITY</AttributeID>
+          <Name>LEGAL ENTITY</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="590d8fba-3008-4253-b312-5bd9f28b756f">
+          <AttributeID>CUST ID</AttributeID>
+          <Name>CUST ID</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+    </Attribute>
+    <Attribute dwd:design-time-name="5ee0e8f5-0f2b-4c90-90a8-da8a5a191705">
+      <ID>CONTRACT LINE NUM</ID>
+      <Name>CONTRACT LINE NUM</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9f8050e2-d3de-40f4-a366-3c5503d8149e">
+          <DataType>SmallInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="70ad256e-60fa-4654-8e75-e3c5a57b7f60">
+            <TableID>dbo_D_CONTRACT_SS</TableID>
+            <ColumnID>CONTRACT_LINE_NUM</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Attribute>
+    <Attribute dwd:design-time-name="4b971489-69f4-4328-84b4-b32992c8c989">
+      <ID>SOURCE ID</ID>
+      <Name>SOURCE ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2224b065-35e3-4dc7-99ab-ef7cba3d793d">
+          <DataType>SmallInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="35f29ce9-8641-439f-8c90-9b7f981e3d3f">
+            <TableID>dbo_D_CONTRACT_SS</TableID>
+            <ColumnID>SOURCE_ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+    </Attribute>
+    <Attribute dwd:design-time-name="34fc5de4-1c89-4ed2-a337-dfd1bb4ad3da">
+      <ID>LEGAL ENTITY</ID>
+      <Name>LEGAL ENTITY</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2bfe5251-4cd7-447f-8751-54fa90ba3ecb">
+          <DataType>WChar</DataType>
+          <DataSize>6</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="603a5f13-f608-4f6b-af61-89620affa587">
+            <TableID>dbo_D_CONTRACT_SS</TableID>
+            <ColumnID>LEGAL_ENTITY</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Attribute>
+    <Attribute dwd:design-time-name="02d1f461-edf8-4c6b-b100-396f0573a895">
+      <ID>CUST ID</ID>
+      <Name>CUST ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="52515b92-75c3-45a7-ad48-9c79fa330249">
+          <DataType>WChar</DataType>
+          <DataSize>17</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b17d9f7c-8505-4758-8ea3-fd3d777672af">
+            <TableID>dbo_D_CONTRACT_SS</TableID>
+            <ColumnID>CUST_ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Attribute>
+  </Attributes>
+</Dimension>

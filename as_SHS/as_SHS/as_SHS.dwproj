@@ -6,10 +6,40 @@
     <Name>as_SHS.database</Name>
     <FullPath>as_SHS.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>CFR_SHS.cube</Name>
+      <FullPath>CFR_SHS.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>CFR_SHS.partitions</Name>
+          <FullPath>CFR_SHS.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
+  <Dimensions>
+    <ProjectItem>
+      <Name>Date.dim</Name>
+      <FullPath>Date.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Product.dim</Name>
+      <FullPath>Product.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Contract.dim</Name>
+      <FullPath>Contract.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
   <DataSources>
     <ProjectItem>
       <Name>CFR.ds</Name>
       <FullPath>CFR.ds</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>SHS_RPT.ds</Name>
+      <FullPath>SHS_RPT.ds</FullPath>
     </ProjectItem>
   </DataSources>
   <DataSourceViews>
@@ -28,11 +58,21 @@
             <Name>CFR</Name>
             <Value xsi:type="xsd:string">Provider=SQLNCLI10.1;Data Source=grdcfrwhq01;Integrated Security=SSPI;Initial Catalog=CFR</Value>
           </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>SHS_RPT</Id>
+            <Name>SHS_RPT</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI10.1;Data Source=grdcfrwhq01;Integrated Security=SSPI;Initial Catalog=SHS_RPT</Value>
+          </ConfigurationSetting>
         </ConnectionMappings>
         <ConnectionSecurityMappings>
           <ConfigurationSetting>
             <Id>CFR</Id>
             <Name>CFR</Name>
+            <Value xsi:type="xsd:int">0</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>SHS_RPT</Id>
+            <Name>SHS_RPT</Name>
             <Value xsi:type="xsd:int">0</Value>
           </ConfigurationSetting>
         </ConnectionSecurityMappings>
