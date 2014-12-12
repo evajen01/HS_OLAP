@@ -102,24 +102,24 @@
       <Name>CONTRACT NUM</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="6553f7f1-ed1d-47ec-b829-33e51c8d7ab7">
+        <KeyColumn dwd:design-time-name="a1adf842-a6ba-4bdf-9e4e-85bc728477c8">
           <DataType>WChar</DataType>
           <DataSize>25</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="36ef7348-14f7-4868-897e-5376306547ea">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="755b1b6c-fba7-4355-b9f8-fe56e2a84bcb">
             <TableID>dbo_D_CONTRACT_SS</TableID>
             <ColumnID>CONTRACT_NUM</ColumnID>
           </Source>
         </KeyColumn>
-        <KeyColumn dwd:design-time-name="2f9b27a8-3d1f-4aaf-8379-0d880e2c6059">
+        <KeyColumn dwd:design-time-name="6cdc90e8-3b04-488c-8863-9ed0e4d3e94b">
           <DataType>SmallInt</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="d2a14bea-62a3-447e-b840-8987d0ac6f26">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="725e0f24-28be-4168-a8f6-2752307b396f">
             <TableID>dbo_D_CONTRACT_SS</TableID>
             <ColumnID>CONTRACT_LINE_NUM</ColumnID>
           </Source>
         </KeyColumn>
-        <KeyColumn dwd:design-time-name="9baf89c2-a66d-4d43-bc95-0b2fd500c35f">
+        <KeyColumn dwd:design-time-name="b6fd2dcf-c4d7-40a2-996c-4a1ffc172c47">
           <DataType>SmallInt</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="08bf08ef-8aed-44cf-8123-30d566ab8d3e">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d16caf04-bcce-4c40-9253-234c471b677e">
             <TableID>dbo_D_CONTRACT_SS</TableID>
             <ColumnID>SOURCE_ID</ColumnID>
           </Source>

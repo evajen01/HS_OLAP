@@ -47,7 +47,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>ucOyhBcQePHP2hIy0SCAZg==12/12/2014 1:43:56 PM12/12/2014 12:32:45 PM</TimeStamp>
+        <TimeStamp>kTxP8mRXjulHaGEgwl3f2Q==12/12/2014 2:57:42 PM12/12/2014 12:32:45 PM</TimeStamp>
         <ID>
           <String>D CONTRACT SS</String>
         </ID>
@@ -61,7 +61,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>Xb4CIorOrDR4/ZT3MZ1U9w==12/12/2014 1:43:56 PM12/12/2014 12:32:45 PMAuYuMBlTECbJlErktte3mw==12/12/2014 12:32:45 PM12/12/2014 12:32:45 PM</TimeStamp>
+        <TimeStamp>va05ju5wJTc6NXDAS68ihw==12/12/2014 3:35:08 PM12/12/2014 12:32:45 PMAuYuMBlTECbJlErktte3mw==12/12/2014 12:32:45 PM12/12/2014 12:32:45 PM</TimeStamp>
         <ID>
           <String>CFR_SHS</String>
         </ID>
@@ -78,5 +78,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2014-12-12T19:44:06Z</LastDeployed>
+  <LastDeployed>2014-12-12T21:35:17Z</LastDeployed>
 </DeploymentSnapshot>
