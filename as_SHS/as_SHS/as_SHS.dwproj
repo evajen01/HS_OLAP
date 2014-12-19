@@ -31,6 +31,10 @@
       <Name>Contract.dim</Name>
       <FullPath>Contract.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Account.dim</Name>
+      <FullPath>Account.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>
@@ -48,6 +52,12 @@
       <FullPath>dsv_SHS.dsv</FullPath>
     </ProjectItem>
   </DataSourceViews>
+  <Roles>
+    <ProjectItem>
+      <Name>SHS_FULL.role</Name>
+      <FullPath>SHS_FULL.role</FullPath>
+    </ProjectItem>
+  </Roles>
   <Configurations>
     <Configuration>
       <Name>Development</Name>

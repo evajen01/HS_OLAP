@@ -33,9 +33,16 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>svvTAUJKWRfufzAt3xrlNw==12/12/2014 1:43:56 PM12/8/2014 2:39:23 PM</TimeStamp>
+        <TimeStamp>My8kNWcmACYRp3CRKInteA==12/19/2014 1:32:30 PM12/8/2014 2:39:23 PM</TimeStamp>
         <ID>
           <String>dsv_SHS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ePgfu+YZZlOtsRNVGPchSw==12/12/2014 1:10:38 PM12/12/2014 12:32:45 PM</TimeStamp>
+        <ID>
+          <String>D DATE DSV</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
@@ -54,22 +61,29 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>ePgfu+YZZlOtsRNVGPchSw==12/12/2014 1:10:38 PM12/12/2014 12:32:45 PM</TimeStamp>
+        <TimeStamp>xvQ4mAbwd9ueTDNHXI9b7A==12/19/2014 1:53:14 PM12/19/2014 1:34:47 PM</TimeStamp>
         <ID>
-          <String>D DATE DSV</String>
+          <String>Account</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>va05ju5wJTc6NXDAS68ihw==12/12/2014 3:35:08 PM12/12/2014 12:32:45 PMAuYuMBlTECbJlErktte3mw==12/12/2014 12:32:45 PM12/12/2014 12:32:45 PM</TimeStamp>
+        <TimeStamp>deAB5j6ETBoVNd1Z7vKbSw==12/19/2014 3:09:34 PM12/12/2014 12:32:45 PMAuYuMBlTECbJlErktte3mw==12/12/2014 12:32:45 PM12/12/2014 12:32:45 PM</TimeStamp>
         <ID>
           <String>CFR_SHS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Role</Type>
+        <TimeStamp>oedL80UufvuTXfELq5b7vg==12/19/2014 3:09:34 PM12/19/2014 3:06:11 PM</TimeStamp>
+        <ID>
+          <String>Role</String>
         </ID>
       </ObjectSnapshot>
     </ObjectSnapshots>
     <DatabaseSnapshot>
       <Type>Microsoft.AnalysisServices.Database</Type>
-      <TimeStamp>F4h1Oo9evuISYParVLq8eg==12/8/2014 2:20:34 PM12/8/2014 2:20:33 PM</TimeStamp>
+      <TimeStamp>4Lsfom8bcEvMp5N+hihlKA==12/19/2014 3:07:18 PM12/8/2014 2:20:33 PM</TimeStamp>
       <ID>
         <String>as_SHS</String>
       </ID>
@@ -78,5 +92,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2014-12-12T21:35:17Z</LastDeployed>
+  <LastDeployed>2014-12-19T21:10:20Z</LastDeployed>
 </DeploymentSnapshot>

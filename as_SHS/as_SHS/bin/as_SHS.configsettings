@@ -20,13 +20,16 @@
     </DataSources>
     <Dimensions>
       <Dimension>
+        <ID>D DATE DSV</ID>
+      </Dimension>
+      <Dimension>
         <ID>D PRODUCT SS</ID>
       </Dimension>
       <Dimension>
         <ID>D CONTRACT SS</ID>
       </Dimension>
       <Dimension>
-        <ID>D DATE DSV</ID>
+        <ID>Account</ID>
       </Dimension>
     </Dimensions>
     <Cubes>
