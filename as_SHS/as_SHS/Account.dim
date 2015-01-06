@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1607" scrolltop="-3519" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7197" y="11880" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1607" scrolltop="-3519" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7197" y="12488" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -158,6 +158,10 @@
         <AttributeRelationship dwd:design-time-name="187709ac-0d1f-4733-b04f-43ff0ac9daef">
           <AttributeID>CERNER ACCOUNT</AttributeID>
           <Name>CERNER ACCOUNT</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="33ad8525-891c-4247-815c-94a1346f6384">
+          <AttributeID>TYPE</AttributeID>
+          <Name>TYPE</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
@@ -319,6 +323,28 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+    </Attribute>
+    <Attribute dwd:design-time-name="11524aac-115c-4756-b422-df9365306cf7">
+      <ID>TYPE</ID>
+      <Name>TYPE</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="cdd8dd32-f681-4e02-90fa-e65b6ff85e56">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1ff01028-7858-454c-9daa-071421393263">
+            <TableID>dbo_SHS_ACCT_MAP</TableID>
+            <ColumnID>TYPE</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="e06ac5ac-0f2a-4433-9864-8d6a29dbc265">
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="d4470ce8-e70d-4e09-86d3-c8050a28c925">
+          <TableID>dbo_SHS_ACCT_MAP</TableID>
+          <ColumnID>TYPE</ColumnID>
+        </Source>
+      </NameColumn>
     </Attribute>
   </Attributes>
   <Hierarchies>

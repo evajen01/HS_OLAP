@@ -1,12 +1,39 @@
 ﻿<Role xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="4a60476a-6d8c-43fe-b57b-f7249531e28e" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Role</ID>
   <Name>SHS_FULL</Name>
-  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
   <Description>Full read-access to SHS cube.</Description>
   <Members>
     <Member>
       <Name>WHQ_NT_DOMAIN\BJ009819</Name>
+    </Member>
+    <Member>
+      <Name>WHQ_NT_DOMAIN\C09865</Name>
+    </Member>
+    <Member>
+      <Name>WHQ_NT_DOMAIN\C09866</Name>
+    </Member>
+    <Member>
+      <Name>WHQ_NT_DOMAIN\C09872</Name>
+    </Member>
+    <Member>
+      <Name>WHQ_NT_DOMAIN\C09873</Name>
+    </Member>
+    <Member>
+      <Name>WHQ_NT_DOMAIN\C09876</Name>
+    </Member>
+    <Member>
+      <Name>WHQ_NT_DOMAIN\C09897</Name>
+    </Member>
+    <Member>
+      <Name>WHQ_NT_DOMAIN\C09898</Name>
+    </Member>
+    <Member>
+      <Name>WHQ_NT_DOMAIN\C09899</Name>
+    </Member>
+    <Member>
+      <Name>WHQ_NT_DOMAIN\C09900</Name>
     </Member>
   </Members>
 </Role>

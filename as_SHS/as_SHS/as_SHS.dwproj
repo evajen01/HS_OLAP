@@ -35,6 +35,10 @@
       <Name>Account.dim</Name>
       <FullPath>Account.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Data Type.dim</Name>
+      <FullPath>Data Type.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>

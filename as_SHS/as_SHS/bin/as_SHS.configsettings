@@ -31,6 +31,9 @@
       <Dimension>
         <ID>Account</ID>
       </Dimension>
+      <Dimension>
+        <ID>Data Type</ID>
+      </Dimension>
     </Dimensions>
     <Cubes>
       <Cube>
