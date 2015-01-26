@@ -33,7 +33,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>2BmmX+D/dR2p/C8KJsW+GQ==1/6/2015 1:24:22 PM12/8/2014 2:39:23 PM</TimeStamp>
+        <TimeStamp>XBQHMB3mMS2Fe1oNyOB79Q==1/26/2015 3:03:28 PM12/8/2014 2:39:23 PM</TimeStamp>
         <ID>
           <String>dsv_SHS</String>
         </ID>
@@ -47,7 +47,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>VARn8/FK5R0R8GuQ3+iMMQ==1/6/2015 12:58:04 PM12/12/2014 12:32:45 PM</TimeStamp>
+        <TimeStamp>+7rQxBiJiADNAMQjYKlb+A==1/15/2015 3:24:35 PM12/12/2014 12:32:45 PM</TimeStamp>
         <ID>
           <String>D PRODUCT SS</String>
         </ID>
@@ -68,21 +68,28 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>/M4ijfwMhggyvqcw2kaHBg==1/6/2015 1:43:28 PM1/6/2015 1:42:18 PM</TimeStamp>
+        <TimeStamp>/M4ijfwMhggyvqcw2kaHBg==1/26/2015 2:58:00 PM1/6/2015 1:42:18 PM</TimeStamp>
         <ID>
           <String>Data Type</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>hTZXN5W1u53WC9jmFpLhog==1/26/2015 3:24:15 PM1/26/2015 3:23:42 PM</TimeStamp>
+        <ID>
+          <String>Client</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>jmmr8bGleQ/RrZOFyV5Sew==1/6/2015 1:44:02 PM12/12/2014 12:32:45 PMAuYuMBlTECbJlErktte3mw==12/12/2014 12:32:45 PM12/12/2014 12:32:45 PM</TimeStamp>
+        <TimeStamp>6YDsqC7ZTQHw3douS30xKg==1/26/2015 3:24:47 PM12/12/2014 12:32:45 PM2WAMZGQ5oxrYZzTQoaOK3w==1/7/2015 3:15:31 PM12/12/2014 12:32:45 PM</TimeStamp>
         <ID>
           <String>CFR_SHS</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Role</Type>
-        <TimeStamp>HqLmD1OW/GP/Ma+SiYKWtQ==12/29/2014 1:16:01 PM12/19/2014 3:06:11 PM</TimeStamp>
+        <TimeStamp>4Fz5+32W15zF0/rLwKUo9g==1/21/2015 3:24:29 PM12/19/2014 3:06:11 PM</TimeStamp>
         <ID>
           <String>Role</String>
         </ID>
@@ -99,5 +106,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2015-01-06T19:44:34Z</LastDeployed>
+  <LastDeployed>2015-01-26T21:24:58Z</LastDeployed>
 </DeploymentSnapshot>

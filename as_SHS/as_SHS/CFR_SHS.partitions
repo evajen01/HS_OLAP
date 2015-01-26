@@ -7,13 +7,33 @@
         <Partition dwd:design-time-name="7ad24db5-2ec7-4ea2-a13d-10aa99ce9c66">
           <ID>F MARGIN DETAIL SHS</ID>
           <Name>F MARGIN DETAIL SHS</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
           <State>Unprocessed</State>
           <Source xsi:type="DsvTableBinding" dwd:design-time-name="86be0f1f-5e98-4d86-8a73-7a2d4cf68085">
             <DataSourceViewID>dsv_SHS</DataSourceViewID>
             <TableID>dbo_F_MARGIN_DETAIL_SHS</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>F BACKLOG DETAIL SHS</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="c3aeae4f-c719-4021-83c1-132dd7e491a8">
+          <ID>F BACKLOG DETAIL SHS</ID>
+          <Name>F BACKLOG DETAIL SHS</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="5a39c817-80ee-4961-966a-a026295dcec2">
+            <DataSourceViewID>dsv_SHS</DataSourceViewID>
+            <TableID>dbo_F_BACKLOG_DETAIL_SHS</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>

@@ -34,6 +34,9 @@
       <Dimension>
         <ID>Data Type</ID>
       </Dimension>
+      <Dimension>
+        <ID>Client</ID>
+      </Dimension>
     </Dimensions>
     <Cubes>
       <Cube>
@@ -44,6 +47,14 @@
             <Partitions>
               <Partition>
                 <ID>F MARGIN DETAIL SHS</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>F BACKLOG DETAIL SHS</ID>
+            <Partitions>
+              <Partition>
+                <ID>F BACKLOG DETAIL SHS</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>

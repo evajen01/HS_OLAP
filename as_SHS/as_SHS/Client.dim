@@ -1,0 +1,152 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="3297193e-954e-46c3-adb3-d80a0c252998" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Client</ID>
+  <Name>Client</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="5ae77f09-ad23-43bc-abe5-3023306bf389">
+    <DataSourceViewID>dsv_SHS</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="e8525b5d-0af7-4615-83fb-9a47f25855c3">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="0fa21230-b678-4583-8174-b5c42d380d42">
+      <ID>CUST ID</ID>
+      <Name>CUST ID</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a1644ed6-fe6c-438b-bd53-483d3eb94b3c">
+          <NullProcessing>UnknownMember</NullProcessing>
+          <DataType>WChar</DataType>
+          <DataSize>15</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1ee65e2d-39c5-4e65-b587-9fc5a7772814">
+            <TableID>dbo_D_CLIENT_SS_DSV</TableID>
+            <ColumnID>CUST_ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="10dcc960-1dcd-4d80-9a1c-16a85d933afd">
+          <AttributeID>MNEM</AttributeID>
+          <Name>MNEM</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f40c7320-00ff-4527-8c1b-9d396f6fd1ac">
+          <AttributeID>CLIENT NAME</AttributeID>
+          <Name>CLIENT NAME</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="14e63b95-b8a5-4b91-9121-935a8cf61da7">
+          <AttributeID>REGION DESCR</AttributeID>
+          <Name>REGION DESCR</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d60d0035-3ea2-4df2-88b7-abfae53fccca">
+          <AttributeID>SUB REGION DESCR</AttributeID>
+          <Name>SUB REGION DESCR</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+    </Attribute>
+    <Attribute dwd:design-time-name="f98ecc48-d202-4bc7-b0de-ffc3d1bd9538">
+      <ID>MNEM</ID>
+      <Name>MNEM</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="229d3e1b-b251-4b3d-b78f-0c78958b1f35">
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3241d806-52dc-441b-9f35-a39c1abdda75">
+            <TableID>dbo_D_CLIENT_SS_DSV</TableID>
+            <ColumnID>MNEM</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+    </Attribute>
+    <Attribute dwd:design-time-name="abc936f8-82d8-4a74-bf77-d479e652161b">
+      <ID>CLIENT NAME</ID>
+      <Name>CLIENT NAME</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="df039424-ef9f-48c4-9072-7cd44bf81906">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="cf9bbbc8-91ec-4bc4-b5f8-30da0ddf0700">
+            <TableID>dbo_D_CLIENT_SS_DSV</TableID>
+            <ColumnID>CLIENT_NAME</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+    </Attribute>
+    <Attribute dwd:design-time-name="3f6be83b-5836-4e7c-84ba-a336a302d088">
+      <ID>REGION DESCR</ID>
+      <Name>REGION DESCR</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5d8df120-8e00-4643-bf08-c9a76a8bb5a4">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9ade9ea6-7b87-45f8-8cb4-27225bf6c469">
+            <TableID>dbo_D_CLIENT_SS_DSV</TableID>
+            <ColumnID>REGION_DESCR</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+    </Attribute>
+    <Attribute dwd:design-time-name="3acc4237-4e9b-4d1e-aed9-648b30c0c729">
+      <ID>SUB REGION DESCR</ID>
+      <Name>SUB REGION DESCR</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ad246eeb-c151-40c2-9e8c-c40f5f36364e">
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c61db583-e21c-4e7a-939d-84eba39e2991">
+            <TableID>dbo_D_CLIENT_SS_DSV</TableID>
+            <ColumnID>SUB_REGION_DESCR</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+    </Attribute>
+  </Attributes>
+</Dimension>

@@ -140,9 +140,17 @@
           <AttributeID>BUS MODEL DESCR</AttributeID>
           <Name>BUS MODEL DESCR</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="00f57afb-8be0-4600-a97d-ec4496d1bbe2">
-          <AttributeID>SETID</AttributeID>
-          <Name>SETID</Name>
+        <AttributeRelationship dwd:design-time-name="38a05baf-951a-463f-876b-96fd3e0b7d74">
+          <AttributeID>ENTERPRISE DESCR</AttributeID>
+          <Name>ENTERPRISE DESCR</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c6908930-27cb-4e06-ba63-31b9ece1ce74">
+          <AttributeID>ENTERPRISE GROUP DESCR</AttributeID>
+          <Name>ENTERPRISE GROUP DESCR</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="28124619-a3cf-4bf1-b980-ebf730e2a179">
+          <AttributeID>EGG DESCR</AttributeID>
+          <Name>EGG DESCR</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
@@ -175,16 +183,44 @@
         </KeyColumn>
       </KeyColumns>
     </Attribute>
-    <Attribute dwd:design-time-name="0601b75f-108c-4f6f-b390-5175f651abe3">
-      <ID>SETID</ID>
-      <Name>SETID</Name>
+    <Attribute dwd:design-time-name="559f1f45-913b-43b0-9fcd-e663c3a20217">
+      <ID>ENTERPRISE DESCR</ID>
+      <Name>ENTERPRISE DESCR</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="ab2f0cd7-9a61-4742-9280-e9676aa19f4f">
+        <KeyColumn dwd:design-time-name="22b5c328-4d5c-46c3-99a0-1e13950ddc91">
           <DataType>WChar</DataType>
-          <DataSize>5</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="c5159f01-cc03-4864-9f20-16e76676fb87">
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3da22879-fea4-41a7-869f-65fcfbbad882">
             <TableID>dbo_D_PRODUCT_SS</TableID>
-            <ColumnID>SETID</ColumnID>
+            <ColumnID>ENTERPRISE_DESCR</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Attribute>
+    <Attribute dwd:design-time-name="55627a36-7dc7-40f2-9e4e-bcd8e11eab68">
+      <ID>ENTERPRISE GROUP DESCR</ID>
+      <Name>ENTERPRISE GROUP DESCR</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5dab3b0f-fc9a-40f9-9b98-6dca89da0da0">
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4a188605-1990-496b-b3d4-909ba7c61d4d">
+            <TableID>dbo_D_PRODUCT_SS</TableID>
+            <ColumnID>ENTERPRISE_GROUP_DESCR</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Attribute>
+    <Attribute dwd:design-time-name="da62f308-caee-4a72-81a4-d692ecacd72c">
+      <ID>EGG DESCR</ID>
+      <Name>EGG DESCR</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2e435c7e-167b-42f4-9945-fa7b63faa4bb">
+          <DataType>WChar</DataType>
+          <DataSize>25</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7dd50940-d857-44b2-a902-8a2049cc2932">
+            <TableID>dbo_D_PRODUCT_SS</TableID>
+            <ColumnID>EGG_DESCR</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>

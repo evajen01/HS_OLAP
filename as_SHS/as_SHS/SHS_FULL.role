@@ -35,5 +35,14 @@
     <Member>
       <Name>WHQ_NT_DOMAIN\C09900</Name>
     </Member>
+    <Member>
+      <Name>WHQ_NT_DOMAIN\C10026</Name>
+    </Member>
+    <Member>
+      <Name>WHQ_NT_DOMAIN\C10029</Name>
+    </Member>
+    <Member>
+      <Name>WHQ_NT_DOMAIN\All Finance Associat</Name>
+    </Member>
   </Members>
 </Role>

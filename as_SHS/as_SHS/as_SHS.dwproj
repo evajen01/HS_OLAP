@@ -39,6 +39,10 @@
       <Name>Data Type.dim</Name>
       <FullPath>Data Type.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Client.dim</Name>
+      <FullPath>Client.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>
