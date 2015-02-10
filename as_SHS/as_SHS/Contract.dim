@@ -1,14 +1,14 @@
 ﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="c3ca4a26-91ae-4948-9359-6bcbed842975" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>D CONTRACT SS</ID>
   <Name>Contract</Name>
-  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
   <Annotations>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1263" scrolltop="-3440" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7197" y="11880" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1263" scrolltop="-3440" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7197" y="11880" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -19,7 +19,7 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="D_CONTRACT_SS" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4630" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="D_CONTRACT_SS" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="4630" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000800001612000088130000" />
             </control>
@@ -85,7 +85,7 @@
       </Value>
     </Annotation>
   </Annotations>
-  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
   <State>Unprocessed</State>
   <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="701c86c8-4800-4679-91d8-f7a638bcb6b3">
     <DataSourceViewID>dsv_SHS</DataSourceViewID>
@@ -150,6 +150,10 @@
           <AttributeID>CUST ID</AttributeID>
           <Name>CUST ID</Name>
         </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a337bc98-3e14-4164-ae9e-4f4228a38096">
+          <AttributeID>X LEG CUST ID</AttributeID>
+          <Name>X LEG CUST ID</Name>
+        </AttributeRelationship>
       </AttributeRelationships>
     </Attribute>
     <Attribute dwd:design-time-name="5ee0e8f5-0f2b-4c90-90a8-da8a5a191705">
@@ -203,6 +207,20 @@
           <Source xsi:type="ColumnBinding" dwd:design-time-name="b17d9f7c-8505-4758-8ea3-fd3d777672af">
             <TableID>dbo_D_CONTRACT_SS</TableID>
             <ColumnID>CUST_ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Attribute>
+    <Attribute dwd:design-time-name="e4f38615-8375-4edd-932c-ca7369213e70">
+      <ID>X LEG CUST ID</ID>
+      <Name>X LEG CUST ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="687b5a9d-fc0f-4e67-a920-d8302a778736">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e796f0aa-406e-41e8-afc6-a6d03eab5be2">
+            <TableID>dbo_D_CONTRACT_SS</TableID>
+            <ColumnID>X_LEG_CUST_ID</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>

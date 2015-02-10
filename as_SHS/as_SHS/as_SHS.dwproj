@@ -43,6 +43,10 @@
       <Name>Client.dim</Name>
       <FullPath>Client.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>C_Account.dim</Name>
+      <FullPath>C_Account.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>

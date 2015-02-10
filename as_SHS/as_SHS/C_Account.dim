@@ -1,0 +1,413 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="c43e6c5f-4b3d-4f39-9caa-88f779202ab3" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>C_Account</ID>
+  <Name>C_Account</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1409" scrolltop="-3440" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7197" y="11880" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="D_ACCOUNT_SS" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4339" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000f310000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_D_ACCOUNT_SS" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1409</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-3440</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="556" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="166">
+            <Shape Id="KEY NAMED COLUMN" Expanded="false">
+              <Attributes>
+                <Attribute Id="KEY NAMED COLUMN" />
+                <Attribute Id="DESCR" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="ACCOUNT" Expanded="false">
+              <Attributes>
+                <Attribute Id="ACCOUNT" />
+              </Attributes>
+              <Position x="232" y="20" />
+            </Shape>
+            <Shape Id="ACCT LEVEL5" Expanded="false">
+              <Attributes>
+                <Attribute Id="ACCT LEVEL5" />
+              </Attributes>
+              <Position x="445" y="20" />
+            </Shape>
+            <Shape Id="ACCT LEVEL4" Expanded="false">
+              <Attributes>
+                <Attribute Id="ACCT LEVEL4" />
+              </Attributes>
+              <Position x="657" y="20" />
+            </Shape>
+            <Shape Id="ACCT LEVEL3" Expanded="false">
+              <Attributes>
+                <Attribute Id="ACCT LEVEL3" />
+              </Attributes>
+              <Position x="870" y="20" />
+            </Shape>
+            <Shape Id="ACCT LEVEL2" Expanded="false">
+              <Attributes>
+                <Attribute Id="ACCT LEVEL2" />
+              </Attributes>
+              <Position x="1082" y="20" />
+            </Shape>
+            <Shape Id="ACCT LEVEL1" Expanded="false">
+              <Attributes>
+                <Attribute Id="ACCT LEVEL1" />
+              </Attributes>
+              <Position x="1295" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="bfd2938b-0d12-4bb3-bfc3-6bbd557e51e8">
+    <DataSourceViewID>dsv_SHS</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="b4435b0c-1e7a-4a82-912c-d0887d72e386">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="668e44bd-3156-47d1-88fb-0efa27984275">
+      <ID>KEY NAMED COLUMN</ID>
+      <Name>KEY NAMED COLUMN</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d9fb168a-39e7-46f2-83dc-7feff6cbd023">
+          <DataType>WChar</DataType>
+          <DataSize>15</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7c3807e8-e53b-4b22-bb6e-23e6df4ad767">
+            <TableID>dbo_D_ACCOUNT_SS</TableID>
+            <ColumnID>KEY_NAMED_COLUMN</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="6dbc2639-a59f-4b81-99f2-12d6165b26e5">
+        <DataType>WChar</DataType>
+        <DataSize>10</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="80428a48-c386-4550-a22a-d8f0ab19c96b">
+          <TableID>dbo_D_ACCOUNT_SS</TableID>
+          <ColumnID>ACCOUNT</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="3ec0517c-471d-441e-af3b-9e7a1aa31df4">
+          <AttributeID>DESCR</AttributeID>
+          <Name>DESCR</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c35708fa-82ac-4bcd-8f6e-3b791c9d73f0">
+          <AttributeID>ACCOUNT</AttributeID>
+          <Name>ACCOUNT</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+    </Attribute>
+    <Attribute dwd:design-time-name="c8e5ba69-03ca-4e7a-8a89-1b50bbf2f4b8">
+      <ID>ACCT LEVEL1</ID>
+      <Name>ACCT LEVEL1</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a44e1026-5628-4f86-a62e-d48e8fd82577">
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d74727c1-e2e2-44cb-b4f1-513eb7dc5712">
+            <TableID>dbo_D_ACCOUNT_SS</TableID>
+            <ColumnID>ACCT_LEVEL1</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="0900ec75-dfb2-4272-8c93-e4bf5284e425">
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="60ea6ba9-6fa1-4ada-a7d9-36cfdfd384e3">
+            <TableID>dbo_D_ACCOUNT_SS</TableID>
+            <ColumnID>ACCOUNT</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="a386ee5c-3088-4c10-94e5-a151d3b2e06b">
+        <DataType>WChar</DataType>
+        <DataSize>30</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="1eccec3b-8058-4726-8d45-63bea0d240b5">
+          <TableID>dbo_D_ACCOUNT_SS</TableID>
+          <ColumnID>ACCT_LEVEL1</ColumnID>
+        </Source>
+      </NameColumn>
+    </Attribute>
+    <Attribute dwd:design-time-name="7738223f-a1bd-4a1d-878b-a213d8710cde">
+      <ID>ACCT LEVEL2</ID>
+      <Name>ACCT LEVEL2</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e21b5fd3-b109-42fe-a83b-b13269f8a166">
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e22acf77-05f4-4f16-9c97-654b9594c01b">
+            <TableID>dbo_D_ACCOUNT_SS</TableID>
+            <ColumnID>ACCT_LEVEL2</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="3150b872-1001-4129-9fe1-6309a8d6a726">
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f28a8243-5e90-44b6-806f-bc8dd900926c">
+            <TableID>dbo_D_ACCOUNT_SS</TableID>
+            <ColumnID>ACCOUNT</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="2e1491ef-b42b-4822-bfe6-2c9c0c598bdd">
+        <DataType>WChar</DataType>
+        <DataSize>30</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="1cdd492f-06bb-4adb-9aeb-be2e3bf04930">
+          <TableID>dbo_D_ACCOUNT_SS</TableID>
+          <ColumnID>ACCT_LEVEL2</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="f2198626-d7d9-4e10-8095-46b56745a4ea">
+          <AttributeID>ACCT LEVEL1</AttributeID>
+          <Name>ACCT LEVEL1</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+    </Attribute>
+    <Attribute dwd:design-time-name="6f860d20-c132-4b61-932a-2a467facbf2a">
+      <ID>ACCT LEVEL3</ID>
+      <Name>ACCT LEVEL3</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1e28a083-397c-40e5-8d58-155a6a3f6969">
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="22d1227b-5ac7-49e9-88cf-8abc5c23bc8f">
+            <TableID>dbo_D_ACCOUNT_SS</TableID>
+            <ColumnID>ACCT_LEVEL3</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="069cb255-4a29-4a06-a04e-fdadb1352bc1">
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bbdc6ab0-2aa9-4128-826b-e8334f05f6ee">
+            <TableID>dbo_D_ACCOUNT_SS</TableID>
+            <ColumnID>ACCOUNT</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="5a974201-4f9a-4ace-b8c3-d8b05738a2cd">
+        <DataType>WChar</DataType>
+        <DataSize>30</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="58f0ae05-e5d8-4c8c-a207-bb2ceb128bcc">
+          <TableID>dbo_D_ACCOUNT_SS</TableID>
+          <ColumnID>ACCT_LEVEL3</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="44c244d5-4fa1-41c0-89c2-c424f9c0d60c">
+          <AttributeID>ACCT LEVEL2</AttributeID>
+          <Name>ACCT LEVEL2</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+    </Attribute>
+    <Attribute dwd:design-time-name="0c63eefe-c7c8-44a6-b44b-a83058447d59">
+      <ID>ACCT LEVEL4</ID>
+      <Name>ACCT LEVEL4</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ead64d36-25d4-48c3-b0ef-f04b3b91fe20">
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e4aee123-88a8-4e34-b29b-74c820c4abe9">
+            <TableID>dbo_D_ACCOUNT_SS</TableID>
+            <ColumnID>ACCT_LEVEL4</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="0ceeb39d-72ff-43dd-b457-d395c68642d3">
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2aa48279-e88b-401a-ba15-98c99062edd3">
+            <TableID>dbo_D_ACCOUNT_SS</TableID>
+            <ColumnID>ACCOUNT</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="be7c389b-ea36-43d8-98e8-7bbe2c9d9fb9">
+        <DataType>WChar</DataType>
+        <DataSize>30</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="7d28135b-6a94-4d6a-86dd-2a9f9c2d1f3f">
+          <TableID>dbo_D_ACCOUNT_SS</TableID>
+          <ColumnID>ACCT_LEVEL4</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="9eec380b-cbc6-4357-82c8-f95cac399052">
+          <AttributeID>ACCT LEVEL3</AttributeID>
+          <Name>ACCT LEVEL3</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+    </Attribute>
+    <Attribute dwd:design-time-name="715b444e-9a2f-4695-9b48-08ed780a4115">
+      <ID>ACCT LEVEL5</ID>
+      <Name>ACCT LEVEL5</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9cd32ecd-6b90-4b65-b79e-4ca8376c29a8">
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7f5816bc-c4c8-4e43-8461-298c89de3d6f">
+            <TableID>dbo_D_ACCOUNT_SS</TableID>
+            <ColumnID>ACCT_LEVEL5</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="dd9250b1-78aa-4a2a-8f1a-22e836113591">
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e1776bbb-93fb-4659-a2a2-dbab322d5457">
+            <TableID>dbo_D_ACCOUNT_SS</TableID>
+            <ColumnID>ACCOUNT</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="4bc51139-2a42-422c-9e76-f2e0d86aa23e">
+        <DataType>WChar</DataType>
+        <DataSize>30</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="f9cc33b7-84c0-470a-84f5-fa7d8384bf8d">
+          <TableID>dbo_D_ACCOUNT_SS</TableID>
+          <ColumnID>ACCT_LEVEL5</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="47e0b482-b6fc-4ccf-b1e7-39a0ab3b5c0c">
+          <AttributeID>ACCT LEVEL4</AttributeID>
+          <Name>ACCT LEVEL4</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+    </Attribute>
+    <Attribute dwd:design-time-name="a0569d54-ada8-4397-9faf-9fc2637cfccf">
+      <ID>DESCR</ID>
+      <Name>DESCR</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3783d546-ac94-4dc8-898c-28d191b920a7">
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="063fa918-724e-453c-9f76-953504b58e0e">
+            <TableID>dbo_D_ACCOUNT_SS</TableID>
+            <ColumnID>DESCR</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Attribute>
+    <Attribute dwd:design-time-name="7065501c-66ce-41c3-8081-e28ec0c811c7">
+      <ID>ACCOUNT</ID>
+      <Name>ACCOUNT</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1c6b1b6f-2454-4ae3-bc42-920f2a02a347">
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="63a65aee-dcf9-4a6a-acae-921e6ad2a346">
+            <TableID>dbo_D_ACCOUNT_SS</TableID>
+            <ColumnID>ACCOUNT</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="b3826ec0-2d67-4dc8-8470-31c8ac5e929f">
+          <AttributeID>ACCT LEVEL5</AttributeID>
+          <Name>ACCT LEVEL5</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="327714a7-58da-4f6d-aa7b-993c77713435">
+      <ID>Hierarchy</ID>
+      <Name>Cerner Account</Name>
+      <Levels>
+        <Level dwd:design-time-name="4701a965-f9fc-4d87-a231-f049ad96f260">
+          <ID>ACCT LEVEL1</ID>
+          <Name>ACCT LEVEL1</Name>
+          <SourceAttributeID>ACCT LEVEL1</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="f452fa35-7370-4be8-9204-9c3a74c6e4bd">
+          <ID>ACCT LEVEL2</ID>
+          <Name>ACCT LEVEL2</Name>
+          <SourceAttributeID>ACCT LEVEL2</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="607b652d-2a52-49a5-902c-7f9b5cc00517">
+          <ID>ACCT LEVEL3</ID>
+          <Name>ACCT LEVEL3</Name>
+          <SourceAttributeID>ACCT LEVEL3</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="9ab9418c-2f21-45b3-8dc6-9322ed06c3bf">
+          <ID>ACCT LEVEL4</ID>
+          <Name>ACCT LEVEL4</Name>
+          <SourceAttributeID>ACCT LEVEL4</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="e3cb099e-2564-4412-8eb6-cf035465bfe3">
+          <ID>ACCT LEVEL5</ID>
+          <Name>ACCT LEVEL5</Name>
+          <SourceAttributeID>ACCT LEVEL5</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="0eb3e6b4-d016-4777-bf77-96c1218226c8">
+          <ID>ACCOUNT</ID>
+          <Name>ACCOUNT</Name>
+          <SourceAttributeID>ACCOUNT</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+</Dimension>

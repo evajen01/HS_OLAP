@@ -127,8 +127,8 @@
       <Usage>Key</Usage>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="bf1ab92c-f5d8-4fde-a72c-02581d5e114a">
-          <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
+          <DataType>Integer</DataType>
           <Source xsi:type="ColumnBinding" dwd:design-time-name="6a966389-8bef-4a28-9333-b81ee54a494c">
             <TableID>dbo_D_DATE_DSV</TableID>
             <ColumnID>CDN</ColumnID>
@@ -151,6 +151,14 @@
         <AttributeRelationship dwd:design-time-name="fbe380ef-4983-4768-adf1-a1a85bd47443">
           <AttributeID>QTR WK CD</AttributeID>
           <Name>Qtr Week Cd</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="24f3dde1-9a66-4855-b722-7f2b2ba668ff">
+          <AttributeID>SHS MONTH ID</AttributeID>
+          <Name>SHS MONTH ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5aa33b97-6a8b-40a8-958b-96f666a76359">
+          <AttributeID>SHS YEAR ID</AttributeID>
+          <Name>SHS YEAR ID</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
@@ -300,6 +308,32 @@
           <Source xsi:type="ColumnBinding" dwd:design-time-name="ae107ce5-6327-49b2-b9bf-bddc2a6337eb">
             <TableID>dbo_D_DATE_DSV</TableID>
             <ColumnID>QTR_WK_CD</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Attribute>
+    <Attribute dwd:design-time-name="f2378786-35e6-40d8-bb3b-b4bfbfad784f">
+      <ID>SHS MONTH ID</ID>
+      <Name>SHS MONTH ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ee833380-1787-4606-8fdb-3c081ba7caf5">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b533317a-8f58-477a-afd6-a2a9e9eabcfe">
+            <TableID>dbo_D_DATE_DSV</TableID>
+            <ColumnID>SHS_MONTH_ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Attribute>
+    <Attribute dwd:design-time-name="483dfd36-a5a6-4fcf-97cf-c61886abd61a">
+      <ID>SHS YEAR ID</ID>
+      <Name>SHS YEAR ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d82ef600-f238-4b63-ad69-509ee509ea6e">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b9218fa5-0905-4734-9b04-9aa80330df01">
+            <TableID>dbo_D_DATE_DSV</TableID>
+            <ColumnID>SHS_YEAR_ID</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>

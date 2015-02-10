@@ -33,14 +33,14 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>XBQHMB3mMS2Fe1oNyOB79Q==1/26/2015 3:03:28 PM12/8/2014 2:39:23 PM</TimeStamp>
+        <TimeStamp>HzlcM5UR4TyzV8Al5mV/0w==2/10/2015 3:45:27 PM12/8/2014 2:39:23 PM</TimeStamp>
         <ID>
           <String>dsv_SHS</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>ePgfu+YZZlOtsRNVGPchSw==12/12/2014 1:10:38 PM12/12/2014 12:32:45 PM</TimeStamp>
+        <TimeStamp>xCRZttgDhOO/YcOJRpPoqA==1/28/2015 10:32:13 AM12/12/2014 12:32:45 PM</TimeStamp>
         <ID>
           <String>D DATE DSV</String>
         </ID>
@@ -54,7 +54,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>kTxP8mRXjulHaGEgwl3f2Q==12/12/2014 2:57:42 PM12/12/2014 12:32:45 PM</TimeStamp>
+        <TimeStamp>cR2hi2+5NqBiYiqY4lExyw==1/28/2015 10:31:53 AM12/12/2014 12:32:45 PM</TimeStamp>
         <ID>
           <String>D CONTRACT SS</String>
         </ID>
@@ -75,14 +75,21 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>hTZXN5W1u53WC9jmFpLhog==1/26/2015 3:24:15 PM1/26/2015 3:23:42 PM</TimeStamp>
+        <TimeStamp>XqzM83o3tUuAeHTCOY+Hnw==2/10/2015 3:15:37 PM1/26/2015 3:23:42 PM</TimeStamp>
         <ID>
           <String>Client</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>yVlmWf5w7YMVJCOuKp/zeQ==2/10/2015 3:35:53 PM2/10/2015 3:29:30 PM</TimeStamp>
+        <ID>
+          <String>C_Account</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>6YDsqC7ZTQHw3douS30xKg==1/26/2015 3:24:47 PM12/12/2014 12:32:45 PM2WAMZGQ5oxrYZzTQoaOK3w==1/7/2015 3:15:31 PM12/12/2014 12:32:45 PM</TimeStamp>
+        <TimeStamp>qXFvJ6e+k0VGaI6PEZMBMw==2/10/2015 3:51:57 PM12/12/2014 12:32:45 PM2WAMZGQ5oxrYZzTQoaOK3w==1/7/2015 3:15:31 PM12/12/2014 12:32:45 PM</TimeStamp>
         <ID>
           <String>CFR_SHS</String>
         </ID>
@@ -106,5 +113,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2015-01-26T21:24:58Z</LastDeployed>
+  <LastDeployed>2015-02-10T21:52:03Z</LastDeployed>
 </DeploymentSnapshot>

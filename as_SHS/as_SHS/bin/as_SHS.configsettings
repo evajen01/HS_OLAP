@@ -37,6 +37,9 @@
       <Dimension>
         <ID>Client</ID>
       </Dimension>
+      <Dimension>
+        <ID>C_Account</ID>
+      </Dimension>
     </Dimensions>
     <Cubes>
       <Cube>
